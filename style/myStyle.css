@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest Guy");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+}
+#weather-icon {
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+}
+#temp-icon {
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+}
+header {
+	font-family: "Luckiest Guy"; 
+}
+.container-fluid {
+	font-family: "Droid Sans Mono";
+}

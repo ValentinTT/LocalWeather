@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!--MyStyle-->
+		<link rel="stylesheet" href="style/myStyle.css">
+	</head>
+	<body>
+		<header class="bg-success text-white text-center col-12 py-3" id="title">
+			<h2>Local Weather</h2>
+		</header>
+		<div class="bg-inverse">
+			<div class="container-fluid mx-3 py-3 bg-inverse text-white">
+				<div class="row justify-content-between">
+					<!--Weather Data-->
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 row text-center invisible" id="weather-data">
+						<div class="col-12 text-center mt-3">
+							<p id="location"><span></span></p>
+						</div>
+						<div class="col-12 align-items-center">
+							<img class="img-fluid" id="weather-icon">
+							<h4 class="mx-2" id="weather-description"></h4>
+						</div>
+						<div class="col-12 pb-2">
+							<div class="row justify-content-center align-items-center">
+								<h4 class="col-2 mx-2" id="temp-value"></h4>
+								<div class="btn btn-primary" id="temp-button">
+									<img class="img-fluid" id="temp-icon">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 text-center">
+							<table class="table">
+								<tbody>
+									<tr>
+										<th scope="row">Wind</th>
+										<td id="wind-table"></td>
+									</tr>
+									<tr>
+										<th scope="row">Pressure</th>
+										<td id="pressure-table"></td>
+									</tr>
+									<tr>
+										<th scope="row">Humidity</th>
+										<td id="humidity-table"></td>
+									</tr>
+									<tr>
+										<th scope="row">Cloudiness</th>
+										<td id="cloudiness-table"></td>
+									</tr>
+									<tr>
+										<th scope="row">GeoCoords</th>
+										<td id="geocords-table"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--Map-->
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 align-self-center rounded invisible" id="map"></div>
+				</div>
+			</div>
+		</div>
+		<footer class="bg-warning text-white text-center py-1">
+			<p class="font-weight-bold">Written and coded by <a href="https://github.com/ValentinTapiaTorti" target="_blank">Valentín TT</a>. <br>Icons by <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>.</p>
+		</footer>
+		<!--JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--Tether-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<!--Bootstrap-->
+		<script src="js/bootstrap.min.js"></script>
+		<!--My Javascript-->
+		<script src="js/myjs.js"></script>
+		<!--Google Maps- ->
+		<script src=""
+		async defer></script>-->
+	</body>
+</html>
